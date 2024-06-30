@@ -1,0 +1,14 @@
+#REQUIRED FILES TO BUILD THIS IMAGE
+# ----------------------------------
+#
+# (1) server-jre-8u202-linux-x64.tar.gz
+#     Download from https://www.oracle.com/java/technologies/downloads/
+# (2) jdk-8u311-linux-x64.tar.gz
+#      Download from https://www.oracle.com/java/technologies/downloads/#java8
+
+# HOW TO BUILD THIS IMAGE
+# -----------------------
+# Put the downloaded files in the same directory as this Dockerfile
+# Run:
+#      $ docker build -t oracle/serverjre:8 .
+
