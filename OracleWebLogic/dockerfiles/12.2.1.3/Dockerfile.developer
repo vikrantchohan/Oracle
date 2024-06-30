@@ -29,6 +29,8 @@
 # ----------------------------------------------------------------------------------------------
 FROM oracle/serverjre:8 as builder
 
+RUN dnf install -y tar unzip gzip
+
 # Labels
 # ------
 LABEL "provider"="Oracle"                                               \
